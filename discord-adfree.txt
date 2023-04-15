@@ -8,3 +8,6 @@ discord.com##li[class^="channel-"]:has(a[data-list-item-id$="___nitro"])
 
 ! Block "gift" button in text input field.
 discord.com##button[aria-label="Send a gift"]
+
+! Block Super Reactions.
+discord.com##div[aria-label="Add Super Reaction"]
