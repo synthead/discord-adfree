@@ -17,3 +17,6 @@ discord.com###message-actions-add-reaction-1
 
 ! Block "Enhance your Discord experience!" banner.
 discord.com##div[class*=" colorPremium-"]
+
+! Block "Try out Nitro!" in user profile editor.
+discord.com##div[class^="premiumFeatureBorder-"]:has(div[class^="premiumBackground"])
