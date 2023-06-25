@@ -15,6 +15,9 @@ discord.com##div[aria-label="Add Super Reaction"]
 ! Block "Add Super Reaction" in message actions menu.
 discord.com###message-actions-add-reaction-1
 
+! Block "Add Super Reaction" in message context menu.
+discord.com###message-add-reaction-1
+
 ! Block "Enhance your Discord experience!" banner.
 discord.com##div[class*=" colorPremium-"]
 
