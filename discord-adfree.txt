@@ -4,7 +4,7 @@
 
 
 ! Block Nitro in channel list.
-discord.com##li[class^="channel-"]:has(a[data-list-item-id$="___nitro"])
+discord.com##li[class^="channel_"]:has(a[data-list-item-id$="___nitro"])
 
 ! Block "gift" button in text input field.
 discord.com##button[aria-label="Send a gift"]
