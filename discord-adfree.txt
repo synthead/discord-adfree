@@ -23,3 +23,6 @@ discord.com##div[class*=" colorPremium-"]
 
 ! Block "Try out Nitro!" in user profile editor.
 discord.com##div[class^="premiumFeatureBorder-"]:has(div[class^="premiumBackground-"])
+
+! Block "Shop" in DM list.
+discord.com##ul[aria-label="Direct Messages"] > li > div > a[href="/shop"]:nth-ancestor(2)
