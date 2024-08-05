@@ -25,4 +25,4 @@ discord.com##div[class*=" colorPremium-"]
 discord.com##div[class^="premiumFeatureBorder-"]:has(div[class^="premiumBackground-"])
 
 ! Block "Shop" in DM list.
-discord.com##ul[aria-label="Direct Messages"] > li > div > a[href="/shop"]:nth-ancestor(2)
+discord.com##ul[aria-label="Direct Messages"] a[href="/shop"]:nth-ancestor(2)
