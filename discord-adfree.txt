@@ -18,8 +18,8 @@ discord.com###message-actions-add-reaction-1
 ! Block "Add Super Reaction" in message context menu.
 discord.com###message-add-reaction-1
 
-! Block "Enhance your Discord experience!" banner.
-discord.com##div[class*=" colorPremium-"]
+! Block Nitro upsell banners.
+discord.com##div[class*=" colorPremium_"]
 
 ! Block "Try out Nitro!" in user profile editor.
 discord.com##div[class^="premiumFeatureBorder-"]:has(div[class^="premiumBackground-"])
