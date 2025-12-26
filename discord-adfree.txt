@@ -27,5 +27,8 @@ discord.com##ul[aria-label="Direct Messages"] a[href="/shop"]:nth-ancestor(2)
 ! Block "Nitro" in DM list.
 discord.com##ul[aria-label="Direct Messages"] a[href="/store"]:nth-ancestor(3)
 
+! Block "Quests" in DM list.
+discord.com##ul[aria-label="Direct Messages"] a[href="/quest-home"]:nth-ancestor(3)
+
 ! Block "Checkpoint" in title bar.
 discord.com##div[aria-label="Checkpoint"]
