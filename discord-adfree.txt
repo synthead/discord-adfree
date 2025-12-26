@@ -3,9 +3,6 @@
 ! Homepage: https://github.com/synthead/discord-adfree
 
 
-! Block Nitro in channel list.
-discord.com##li[class^="channel_"]:has(a[data-list-item-id$="___nitro"])
-
 ! Block "gift" button in text input field.
 discord.com##div:has(> div[aria-label="Send a gift"])
 
@@ -26,6 +23,9 @@ discord.com##div[class^="premiumFeatureBorder-"]:has(div[class^="premiumBackgrou
 
 ! Block "Shop" in DM list.
 discord.com##ul[aria-label="Direct Messages"] a[href="/shop"]:nth-ancestor(2)
+
+! Block "Nitro" in DM list.
+discord.com##ul[aria-label="Direct Messages"] a[href="/store"]:nth-ancestor(3)
 
 ! Block "Checkpoint" in title bar.
 discord.com##div[aria-label="Checkpoint"]
