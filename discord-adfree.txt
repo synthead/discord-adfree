@@ -26,3 +26,6 @@ discord.com##div[class^="premiumFeatureBorder-"]:has(div[class^="premiumBackgrou
 
 ! Block "Shop" in DM list.
 discord.com##ul[aria-label="Direct Messages"] a[href="/shop"]:nth-ancestor(2)
+
+! Block "Checkpoint" in title bar.
+discord.com##div[aria-label="Checkpoint"]
