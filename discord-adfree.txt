@@ -32,3 +32,6 @@ discord.com##ul[aria-label="Direct Messages"] a[href="/quest-home"]:nth-ancestor
 
 ! Block "Checkpoint" in title bar.
 discord.com##div[aria-label="Checkpoint"]
+
+! Block any notice that has the word "Nitro".
+discord.com##div[class^="notice__"]:has(> div > h2:has-text(Nitro))
