@@ -35,3 +35,6 @@ discord.com##div[aria-label="Checkpoint"]
 
 ! Block any notice that has the word "Nitro".
 discord.com##div[class^="notice__"]:has(> div > h2:has-text(Nitro))
+
+! Block "quest bar" ads above username.
+discord.com##div[data-testid="quest-bar-container"]
